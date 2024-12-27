@@ -1,8 +1,8 @@
 import json
 import csv
-import requests
 
-input_file = 'Saint-Petersburg24.09.06.json'
+
+input_file = 'data/Saint-Petersburg24.09.06.json'
 
 # Открываем JSON-файл и загружаем данные
 with open(input_file, 'r', encoding='utf-8') as file:
